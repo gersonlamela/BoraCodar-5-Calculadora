@@ -122,7 +122,7 @@ export default function Home() {
 					<button onClick={() => handleButtonClick('.')} className="w-16 h-16 bg-[#2D2A37] shadow-button-calculator rounded-full flex items-center justify-center ">
 						<span className="text-2xl text-[#EBEBEB]">,</span>
 					</button>
-					<button onClick={() => (handleButtonClick('='), setIcon('../../icons/Equals.svg'))} className="w-16 h-16 bg-[#462878] shadow-button-calculator rounded-full flex items-center justify-center ">
+					<button onClick={() => (handleButtonClick('='), setIcon('../../icons/Equals.svg'))} className="w-16 h-16 bg-[#7F45E2] shadow-button-calculator rounded-full flex items-center justify-center ">
 						<Image src="../../icons/Equals.svg" alt="Equals" width={28} height={28} />
 					</button>
 				</div>
